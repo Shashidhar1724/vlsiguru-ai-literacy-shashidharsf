@@ -20,10 +20,10 @@
 │   │   │   │ Generative AI (GenAI)                           │
 │   │   │   │ (e.g., LLMs, Diffusion Models)                  │
 │   │   │   └─────────────────────────────────────────────────┘
-└───────┴─────────────────────────────────────────────────────┘
+└───────┴─────────────────────────────────────────────────────┘```
 
 [AI Agent: Systems & Workflow Architecture]
-Agent = Core Foundation Model (Reasoning) + Planning + Memory + Tool Integration (APIs/Execution)```
+Agent = Core Foundation Model (Reasoning) + Planning + Memory + Tool Integration (APIs/Execution)
 [cite: 1]
 
 Generative AI produces static outputs directly conditioned on an input prompt[cite: 1]. In contrast, an AI agent treats the generative model as a reasoning core within an active software loop: it observes the environment, plans sub-tasks, calls external tools, reads the results, and iterates until the goal is achieved[cite: 1].
