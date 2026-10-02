@@ -28,7 +28,7 @@ Agent = Core Foundation Model (Reasoning) + Planning + Memory + Tool Integration
 
 Generative AI produces static outputs directly conditioned on an input prompt[cite: 1]. In contrast, an AI agent treats the generative model as a reasoning core within an active software loop: it observes the environment, plans sub-tasks, calls external tools, reads the results, and iterates until the goal is achieved[cite: 1].
 
-### E - Evidence
+###E - Evidence
 * Russell, S., & Norvig, P., *Artificial Intelligence: A Modern Approach* (4th ed., Pearson, 2020) — Formulates rational agent systems and places machine learning as inductive computational inference[cite: 1].
 * Goodfellow, I., Bengio, Y., & Courville, A., *Deep Learning* (MIT Press, 2016) — Defines deep learning as multi-layer neural network representations within ML[cite: 1].
 * Weng, L., "LLM Powered Autonomous Agents" (Lil'Log, 2023) — Outlines the agent architecture as planning, memory, and tool integration built around foundation models[cite: 1].
