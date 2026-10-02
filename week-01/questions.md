@@ -9,7 +9,7 @@
 * **Generative AI (GenAI):** A branch of deep learning models designed to sample from learned probability distributions to synthesize original content (text, code, audio, images) that mirrors their training corpus[cite: 1]. Example: An LLM drafting a technical explanation or writing a Python script from a prompt[cite: 1].
 * **AI Agent:** A goal-oriented software system combining a foundation model reasoning core with memory, multi-step planning, and external tool execution (APIs, code interpreters, database connectors) to accomplish workflows iteratively[cite: 1]. Example: A digital assistant checking calendar schedules, querying flight availability via an external API, booking a ticket, and emailing the itinerary[cite: 1].
 
-text
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ Artificial Intelligence (AI)                                │
 │   ┌─────────────────────────────────────────────────────────┤
@@ -23,7 +23,7 @@ text
 └───────┴─────────────────────────────────────────────────────┘
 
 [AI Agent: Systems & Workflow Architecture]
-Agent = Core Foundation Model (Reasoning) + Planning + Memory + Tool Integration (APIs/Execution)
+Agent = Core Foundation Model (Reasoning) + Planning + Memory + Tool Integration (APIs/Execution)```
 [cite: 1]
 
 Generative AI produces static outputs directly conditioned on an input prompt[cite: 1]. In contrast, an AI agent treats the generative model as a reasoning core within an active software loop: it observes the environment, plans sub-tasks, calls external tools, reads the results, and iterates until the goal is achieved[cite: 1].
